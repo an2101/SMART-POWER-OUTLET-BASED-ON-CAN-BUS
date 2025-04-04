@@ -8,11 +8,11 @@ Link Arduino IDE: https://www.arduino.cc/en/software
 Linh STM32CubeIDE: https://www.st.com/en/development-tools/stm32cubeide.html  
 **3. Load program on Esp32-C3**  
 Open Arduino IDE, open File/Preferences..., copy this link to manager URL: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json (ignore if done)  
-![Circuit](Document/circuit.png)  
+![Circuit](img_source/arduino1.png)  
 Install esp32 board (ignore if done)  
-![Circuit](Document/circuit.png)  
+![Circuit](img_source/arduino2.png)  
 Connect Esp32-c3 to your computer. Then select board and port.  
-![Circuit](Document/circuit.png)  
+![Circuit](img_source/arduino3.png)  
 Load program on Esp32-c3, source code in "esp32.ino" file  
-![Circuit](Document/circuit.png)  
+![Circuit](img_source/arduino4.png)  
 **4. Load program on STM32**  

@@ -16,3 +16,26 @@ Connect Esp32-c3 to your computer. Then select board and port.
 Load program on Esp32-c3, source code in "esp32.ino" file  
 ![Circuit](img_source/arduino4.png)  
 **4. Load program on STM32**  
+Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Location project.  
+![Circuit](img_source/arduino4.png)  
+**STM32CubeIDE Settings on STM32 1st**  
+Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  
+Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
+Click Clock Configuration tab → HCLK (MHz) to 72  
+Click PB3 GPIO and Configuration Output state.  
+Click connectivity --> Click CAN --> Mode --> Activated  
+Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
+Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
+Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
+Click connectivity --> Click USART1 --> Mode --> Asynchronous  
+![Circuit](img_source/arduino4.png)  
+**STM32CubeIDE Settings on STM32 2nd**  
+Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  
+Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
+Click Clock Configuration tab → HCLK (MHz) to 72  
+Click PB3 GPIO and Configuration Output state.  
+Click connectivity --> Click CAN --> Mode --> Activated  
+Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
+Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
+Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"
+![Circuit](img_source/arduino4.png)  

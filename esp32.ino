@@ -1,6 +1,7 @@
 #define BLYNK_TEMPLATE_ID "TMPL6DsPqaDKD"
 #define BLYNK_TEMPLATE_NAME "wifi plug"
 #define BLYNK_AUTH_TOKEN "l-fdVBNcmkVsq43EGZ_H5HZQnD-8kxJ2"
+//Warning: install all library need if check code progress is error.
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <WiFiManager.h>
@@ -10,6 +11,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include "time.h"
+//Warning: install all library need if check code progress is error.
+
 //int output_relay1 = 6;
 //int output_relay2 = 5;
 #define RX_PIN 5

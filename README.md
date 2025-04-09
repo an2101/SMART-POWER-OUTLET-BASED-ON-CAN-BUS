@@ -42,7 +42,7 @@ Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Loc
 (Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)  
 -Click connectivity --> Click USART1 --> Mode --> Asynchronous  
 ![Circuit](img_source/stm2.png)  
-Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_1) on your project.  
+Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_1/Core/Src/main.c) on your "main.c" project.  
 Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.  
 **STM32CubeIDE Settings on STM32 2nd**  
 -Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM2"  
@@ -60,5 +60,5 @@ Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.
 +Click Task and Queues --> Create 2 task  
 (Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)  
 ![Circuit](img_source/stm3.png)  
-Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_2) on your project.  
+Code will be generate "main.c" after save the setting. Copy the code in github (rtos_stm32_2/Core/Src/main.c) on your "main.c" project.  
 Finally, load program (build and run debug) on stm32 2nd with ST-LINK/V2.

@@ -29,7 +29,7 @@ Install esp32 board (ignore if done)
 ![Circuit](img_source/arduino2.png)  
 Connect Esp32-c3 to your computer. Then select board and port.  
 ![Circuit](img_source/arduino3.png)  
-Load program on Esp32-c3, source code in "esp32.ino" file  
+Load program on Esp32-c3, source code in "esp32.ino" file **(Warning: install all library need if check code progress is error.)**  
 ![Circuit](img_source/arduino4.png)  
 **4. Load program on STM32**  
 Open STM32CubeIDE, creat STM32 project 1st and 2nd, select board (STM32F103C6T6), select Location project.  

@@ -35,7 +35,7 @@ Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Loc
 +Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
 +Click NVIC Settings --> Choose "CAN RX1 Interrupt"  
 +Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
--FREERTOS Settings:
+-FREERTOS Settings:  
 +Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
 +Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
 +Click Task and Queues --> Create 3 task  
@@ -54,7 +54,7 @@ Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.
 +Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
 +Click NVIC Settings --> Choose "CAN RX1 Interrupt"  
 +Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
--FREERTOS Settings:
+-FREERTOS Settings:  
 +Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
 +Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
 +Click Task and Queues --> Create 2 task  

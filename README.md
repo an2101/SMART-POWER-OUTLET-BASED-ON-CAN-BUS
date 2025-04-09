@@ -6,10 +6,12 @@
 |106210259      | Dương Thị Thảo Vi| 21KTMT2       |
 
 **Directory Structure:**  
-**-lb_core:** Contains the core load balancing logic and implementation.  
-**-mininet:** Includes scripts and configurations for setting up the Mininet environment.  
-**-result:** Stores the results and logs generated from running the simulations.  
-**-tb:** Testing and benchmarking scripts.  
+**-Document:** Contains circuit diagram and slide report.  
+**-img_source:** Contains images used for "README.md".  
+**-rtos_stm32_1:** Contains STM32 1st project, created by STM32CubeIDE, main source code in "rtos_stm32_1/Core/Src/main.c".  
+**-rtos_stm32_2:** Contains STM32 2nd project, created by STM32CubeIDE, main source code in "rtos_stm32_2/Core/Src/main.c".  
+**-README.md:** Contains introduction and instructions project.  
+**-esp32.ino:** Contains main source code for ESP32.  
   
 Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link  

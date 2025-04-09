@@ -1,4 +1,11 @@
-**This is midterm project about "SMART POWER OUTLET BASED ON CAN BUS" in Real-time Systems course**. Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
+**This is midterm project about "SMART POWER OUTLET BASED ON CAN BUS" in Real-time Systems course**. 
+| ID   | Student    | Class    |
+|:-------:|:-------:|--------|
+|106210045      | Nguyễn Văn An| 21KTMT       |
+|106210050      | Phạm Thị Phương| 21KTMT       |
+|106210259      | Dương Thị Thảo Vi| 21KTMT2       |
+
+Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link  
 **Walkthrough:**  
 **1. Connect the devices according to the following diagram.**  

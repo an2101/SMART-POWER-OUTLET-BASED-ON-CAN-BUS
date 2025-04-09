@@ -5,8 +5,15 @@
 |106210050      | Phạm Thị Phương| 21KTMT       |
 |106210259      | Dương Thị Thảo Vi| 21KTMT2       |
 
+**Directory Structure:**  
+**-lb_core:** Contains the core load balancing logic and implementation.  
+**-mininet:** Includes scripts and configurations for setting up the Mininet environment.  
+**-result:** Stores the results and logs generated from running the simulations.  
+**-tb:** Testing and benchmarking scripts.  
+  
 Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link  
+  
 **Walkthrough:**  
 **1. Connect the devices according to the following diagram.**  
 ![Circuit](Document/circuit.png)  
@@ -23,7 +30,7 @@ Connect Esp32-c3 to your computer. Then select board and port.
 Load program on Esp32-c3, source code in "esp32.ino" file  
 ![Circuit](img_source/arduino4.png)  
 **4. Load program on STM32**  
-Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Location project.  
+Open STM32CubeIDE, creat STM32 project 1st and 2nd, select board (STM32F103C6T6), select Location project.  
 ![Circuit](img_source/stm1.png)  
 **STM32CubeIDE Settings on STM32 1st**  
 -Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  

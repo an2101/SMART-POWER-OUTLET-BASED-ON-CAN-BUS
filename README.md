@@ -43,7 +43,7 @@ Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Loc
 -Click connectivity --> Click USART1 --> Mode --> Asynchronous  
 ![Circuit](img_source/stm2.png)  
 Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_1) on your project.  
-Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.
+Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.  
 **STM32CubeIDE Settings on STM32 2nd**  
 -Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM2"  
 -Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  

@@ -26,25 +26,39 @@ Load program on Esp32-c3, source code in "esp32.ino" file
 Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Location project.  
 ![Circuit](img_source/stm1.png)  
 **STM32CubeIDE Settings on STM32 1st**  
-Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  
-Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
-Click Clock Configuration tab → HCLK (MHz) to 72  
-Click PB3 GPIO and Configuration Output state.  
-Click connectivity --> Click CAN --> Mode --> Activated  
-Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
-Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
-Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
-Click connectivity --> Click USART1 --> Mode --> Asynchronous  
+-Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  
+-Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
+-Click Clock Configuration tab → HCLK (MHz) to 72  
+-Click PB3 GPIO and Configuration Output state.  
+-Can bus Settings:  
++Click connectivity --> Click CAN --> Mode --> Activated  
++Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
++Click NVIC Settings --> Choose "CAN RX1 Interrupt"  
++Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
+-FREERTOS Settings:
++Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
++Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
++Click Task and Queues --> Create 3 task  
+(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)
+-Click connectivity --> Click USART1 --> Mode --> Asynchronous  
 ![Circuit](img_source/stm2.png)  
+Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_1) on your project.  
+Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.
 **STM32CubeIDE Settings on STM32 2nd**  
-Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM3"  
-Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
-Click Clock Configuration tab → HCLK (MHz) to 72  
-Click PB3 GPIO and Configuration Output state.  
-Click connectivity --> Click CAN --> Mode --> Activated  
-Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
-Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
-Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
+-Click System Core/sys/select debug "Serial Wire" and select Timebase Source "TIM2"  
+-Click RCC → High Speed Clock (HSE) to Crystal/Ceramic Resonator  
+-Click Clock Configuration tab → HCLK (MHz) to 72  
+-Click PB3 GPIO and Configuration Output state.  
+-Can bus Settings:  
++Click connectivity --> Click CAN --> Mode --> Activated  
++Parameter Settings --> Prescalor 72 & Time Quanta in Bit Segment1 - 2 Times (Baud 125000)  
++Click NVIC Settings --> Choose "CAN RX1 Interrupt"  
++Set PB9 to CAN_TX (PB8 will auto set to CAN_RX)  
+-FREERTOS Settings:
++Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
++Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
++Click Task and Queues --> Create 2 task  
+(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)
 ![Circuit](img_source/stm3.png)  
-Code will be generate after save the setting. Copy the code in main.c (rtos_stm32_1 and rtos_stm32_2) on your project.  
-Finally, load program on stm32 1st and 2nd with ST-LINK/V2.
+Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_2) on your project.  
+Finally, load program (build and run debug) on stm32 2nd with ST-LINK/V2.

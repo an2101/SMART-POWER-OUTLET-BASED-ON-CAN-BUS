@@ -39,7 +39,7 @@ Open STM32CubeIDE, creat STM32 project, select board (STM32F103C6T6), select Loc
 +Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
 +Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
 +Click Task and Queues --> Create 3 task  
-(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)
+(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)  
 -Click connectivity --> Click USART1 --> Mode --> Asynchronous  
 ![Circuit](img_source/stm2.png)  
 Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_1) on your project.  
@@ -58,7 +58,7 @@ Finally, load program (build and run debug) on stm32 1st with ST-LINK/V2.
 +Click Middleware and Software Packs/FREERTOS/select interface "CMSIS_V1"  
 +Click Advanced settings --> Choose Enabled in USE_NEWLIB_REENTRANT   
 +Click Task and Queues --> Create 2 task  
-(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)
+(Note: Setup default task configure, exclude choose "osPriorityNormal" in Priority)  
 ![Circuit](img_source/stm3.png)  
 Code will be generate "main.c" after save the setting. Copy the code in main.c (rtos_stm32_2) on your project.  
 Finally, load program (build and run debug) on stm32 2nd with ST-LINK/V2.

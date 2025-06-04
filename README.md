@@ -1,4 +1,4 @@
-**This is midterm project about "SMART POWER OUTLET BASED ON CAN BUS" in Real-time Systems course**. 
+**This is project about "SMART POWER OUTLET BASED ON CAN BUS" in Real-time Systems course**. 
 | ID   | Student    | Class    |
 |:-------:|:-------:|--------|
 |106210045      | Nguyễn Văn An| 21KTMT       |
@@ -13,7 +13,7 @@
 **-README.md:** Contains introduction and instructions project.  
 **-esp32.ino:** Contains main source code for ESP32.  
   
-Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
+Details information project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link  
   
 **Walkthrough:**  

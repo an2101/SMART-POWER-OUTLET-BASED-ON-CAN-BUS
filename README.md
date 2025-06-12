@@ -6,7 +6,7 @@
 |106210259      | Dương Thị Thảo Vi| 21KTMT2       |
 
 **Directory Structure:**  
-**-Document:** Contains circuit diagram and slide report.  
+**-Document:** Contains circuit diagram and report.  
 **-img_source:** Contains images used for "README.md".  
 **-rtos_stm32_1:** Contains STM32 1st project, created by STM32CubeIDE, main source code in "rtos_stm32_1/Core/Src/main.c".  
 **-rtos_stm32_2:** Contains STM32 2nd project, created by STM32CubeIDE, main source code in "rtos_stm32_2/Core/Src/main.c".  

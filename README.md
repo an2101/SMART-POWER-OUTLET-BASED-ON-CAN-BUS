@@ -15,6 +15,8 @@
   
 Details information project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link  
+Demo video 2 (1m30s)  
+https://drive.google.com/file/d/1l1CFgZoxpKB4ZJzIU-vfULtJIDgSLqOt/view?usp=drivesdk  
   
 **Walkthrough:**  
 **1. Connect the devices according to the following diagram.**  
